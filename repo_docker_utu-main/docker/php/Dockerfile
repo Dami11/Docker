@@ -10,7 +10,7 @@ FROM php:${php_version}
 RUN apt-get update && \
     apt-get install vim git -y
 
-RUN git clone https://rpias:1wqwlnxyX4DWx0aFSX8NwD@github.com/rpias/repo_php_utu.git /var/www/html
+RUN git clone https://github.com/Dami11/Docker/tree/main/repo_docker_utu-main /var/www/html
 
 
 # ejecuta en el contenedor el comando necesario para instalar las librerias 
