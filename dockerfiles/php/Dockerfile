@@ -10,7 +10,7 @@ FROM php:${php_version}
 RUN apt-get update && \
     apt-get install vim git -y
 
-RUN git clone https://github.com/Dami11/Sistemas-Operativos.git
+RUN git clone https://github.com/Dami11/Docker.git
 
 # ejecuta en el contenedor el comando necesario para instalar las librerias 
 # necesarias para utilizar mysql
